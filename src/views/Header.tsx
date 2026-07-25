@@ -46,7 +46,7 @@ const Header = () => {
         <div className="nav-links">
           <a href="/">Home</a>
 
-          <a href="#about">About</a>
+          <a href="about.tsx">About</a>
 
           {/* ===== DROPDOWN ===== */}
           <div className="dropdown">
@@ -86,7 +86,7 @@ const Header = () => {
       <div className={`mobile-menu ${menuOpen ? "active" : ""}`}>
         <a href="/">Home</a>
 
-        <a href="#about">About us</a>
+        <a href="/about">About us</a>
 
         <a href="#products">Products</a>
 

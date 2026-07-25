@@ -40,6 +40,11 @@
   max-width: 600px;
   animation: fadeUp 1.2s ease;
 }
+@media screen and (max-width: 500px) {
+  .hero-content {
+    margin-top: -90px;
+  }
+}
 
 .hero-subtitle {
   color: #7fd8ff;
