@@ -1,6 +1,3 @@
-// Products.jsx
-
-import React from "react";
 import "./Products.css";
 
 import pump1 from "/homepage.jpeg";

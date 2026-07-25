@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, X, Phone, Mail, MapPin, ChevronDown } from "lucide-react";
 
 import "./Header.css";
@@ -29,7 +29,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
 
       <nav className="navbar">
         {/* ===== LOGO ===== */}
