@@ -90,6 +90,11 @@ header {
   color: gray;
   letter-spacing: 1px;
 }
+@media screen and (max-width: 500px) {
+  .logo-text p {
+    display: none;
+  }
+}
 
 /* ===== NAV LINKS ===== */
 .nav-links {
